@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ServicioInyeccionDependenciasV2.Aplicacion.Services.CommunicationService" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aplicacion\Services\CommunicationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioInyeccionDependenciasV2.Aplicacion.Services.CustomerService" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Aplicacion\Services\CustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioInyeccionDependenciasV2.Dominio.Customers" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAAAAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Dominio\Customers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioInyeccionDependenciasV2.Infraestructura.Senders.EmailService" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infraestructura\Senders\EmailService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioInyeccionDependenciasV2.Infraestructura.Senders.SMSService" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infraestructura\Senders\SMSService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="ServicioInyeccionDependenciasV2.Infraestructura.Repositories.CustomerRepository" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAA=</HashCode>
+      <FileName>Infraestructura\Repositories\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioInyeccionDependenciasV2.Infraestructura.Repositories.MySQLConnection" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infraestructura\Repositories\MySQLConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioInyeccionDependencia.Program" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="13" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="ServicioInyeccionDependenciasV2.Aplicacion.Dependencies.ISender" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aplicacion\Dependencias\ISender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
